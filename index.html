@@ -118,11 +118,34 @@ img.emoji {
 }
 </style>
 	
-body{
-    background:#000;url("http://cdn.nitian1207.cn/bg6.jpg") no-repeat  center;
-    background-size:cover;
-    background-attachment:fixed;
-}
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        .bannerbox {
+            width:100%;
+            position:relative;
+            overflow:hidden;
+            height:200px;
+        }
+        .banner {
+            width:3000px; /*图片宽度*/
+            position:absolute;
+            left:50%;
+            margin-left:-1500px; /*图片宽度的一半*/
+        }
+    </style>
+</head>
+<body>
+    <div class="bannerbox">
+        <div class="banner">
+            <img src="http://cdn.nitian1207.cn/bg6.jpg">
+        </div>
+    </div> 
+</body>
+</html>
+
+
 <body class="home page-template-default page page-id-6 wp-embed-responsive customizer-styles-applied singular image-filters-enabled hide-homepage-title admin-bar highlander-enabled highlander-light">
 
 	
